@@ -14,71 +14,80 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            /* Color de fondo solicitado */
+            min-height: 100vh;
+            /* TU COLOR DE FONDO */
             background-color: #5d8896; 
             font-family: 'Roboto', sans-serif;
-            /* Color de fuente solicitado */
-            color: #989798; 
+            /* TEXTO EN BLANCO para mayor contraste y elegancia */
+            color: #ffffff; 
             text-align: center;
         }
 
         .container {
-            max-width: 600px;
+            width: 90%;
+            max-width: 900px; /* Contenedor amplio */
             padding: 40px;
-            background-color: rgba(255, 255, 255, 0.05); /* Un toque sutil para dar contraste */
-            border-radius: 15px;
         }
 
+        /* LOGO GRANDE */
         img.logo-argento {
-            max-width: 280px;
+            width: 100%;
+            max-width: 450px; 
             height: auto;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         h1 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            /* Usamos tu color de fuente pero un poco más claro para el título si prefieres, 
-               o mantenemos el solicitado: */
-            color: #989798;
+            font-size: 3.5rem;
+            margin-bottom: 25px;
+            color: #ffffff;
             text-transform: uppercase;
             letter-spacing: 3px;
+            text-shadow: 0px 2px 10px rgba(0,0,0,0.1);
         }
 
         p {
-            font-size: 1.2rem;
-            line-height: 1.8;
-            margin-bottom: 30px;
+            font-size: 1.5rem;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            font-weight: 400;
         }
 
         .contact-info {
-            margin-top: 30px;
-            padding-top: 30px;
-            border-top: 1px solid rgba(152, 151, 152, 0.3);
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+        }
+
+        .contact-info p {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
         }
 
         .btn-whatsapp {
             display: inline-block;
-            margin-top: 15px;
-            padding: 15px 30px;
-            background-color: #25d366;
+            margin-top: 30px;
+            padding: 20px 50px;
+            background-color: #25d366; /* Verde WhatsApp */
             color: white;
             text-decoration: none;
             border-radius: 50px;
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
-            font-size: 1rem;
+            font-size: 1.3rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
             transition: transform 0.3s ease;
         }
 
         .btn-whatsapp:hover {
             transform: scale(1.05);
+            background-color: #1ebc57;
         }
-
+        
         strong {
-            color: #ffffff; /* Resaltamos los nombres importantes en blanco para que se lean mejor */
+            font-weight: 700;
+            color: #ffffff;
         }
     </style>
 </head>
@@ -93,7 +102,8 @@
         <div class="contact-info">
             <p>¿Necesitas ayuda inmediata?</p>
             <p>Email: <strong>contacto@argento.mx</strong></p>
-            <a href="https://wa.me/521" class="btn-whatsapp">CONTACTAR POR WHATSAPP</a>
+            
+            <a href="https://wa.me/525584300118" class="btn-whatsapp" target="_blank">CONTACTAR POR WHATSAPP</a>
         </div>
     </div>
 
