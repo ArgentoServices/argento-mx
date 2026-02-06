@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>argento.mx | En Mantenimiento</title>
-    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Argento Technology Innovation | En Mantenimiento</title>
     
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <meta property="og:title" content="Argento Technology Innovation">
+    <meta property="og:description" content="Estamos renovando nuestra plataforma para ofrecerte mejores soluciones tecnológicas. Contáctanos.">
+    <meta property="og:image" content="https://argento.mx/logo-argento.png">
+    <meta property="og:url" content="https://argento.mx">
+    <meta property="og:type" content="website">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
@@ -28,7 +35,7 @@
             padding: 40px;
         }
 
-        /* CAMBIO: Logo reducido a la mitad (aprox 220px) */
+        /* LOGO (Tamaño controlado) */
         img.logo-argento {
             width: 100%;
             max-width: 220px; 
@@ -87,6 +94,20 @@
         strong {
             font-weight: 700;
             color: #ffffff;
+        }
+
+        /* --- VERSIÓN MÓVIL (RESPONSIVO) --- */
+        @media (max-width: 768px) {
+            .container { padding: 20px; }
+            h1 { font-size: 2.2rem; letter-spacing: 1px; }
+            p { font-size: 1.1rem; margin-bottom: 30px; }
+            .contact-info { margin-top: 40px; padding-top: 30px; }
+            .btn-whatsapp {
+                padding: 15px 30px;
+                font-size: 1.1rem;
+                width: 80%;
+                max-width: 300px;
+            }
         }
     </style>
 </head>
